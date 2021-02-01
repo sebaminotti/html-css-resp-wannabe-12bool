@@ -1,6 +1,5 @@
 .row {
-  background-color: #4d4d4d;
-  width: 100%;
+  width: 992px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -9,9 +8,8 @@
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
-  width: 100%;
+  width: 50%;
   float: left;
-
 }
 
 #lezioni .row img {
@@ -23,7 +21,6 @@
 
 #lezioni {
   text-align: center;
-
 }
 
 /* BLOCCO STEPS */
@@ -31,7 +28,7 @@
 #steps .row>.central,
 #steps .row>.right {
   float: left;
-
+  width: 33%;
 }
 
 #steps {
@@ -63,11 +60,8 @@
   clear: both;
 }
 
-}
 .container.grey {
   width: 100%;
-
-
 }
 
 img {
@@ -77,12 +71,40 @@ img {
 .clear {
   clear: both;
 }
+/* inizio style personale seba */
+@media screen and (min-width:769px) and (max-width:1200px) {
+h1 {
+color: blue;
+font-size: 3em;
 
+}
 
-@media screen and (min-width:769px) and (max-width:1200px;) {
-  {
-  margin-top: 10%;
-  margin-bottom: 10%;
+}
+@media screen and (max-width:700px) {
+  h1{
+  font-size: 4em;
+  color: orange;
+  padding: 5%;
   }
+  h3 {
+    font-size: 2em;
+    color: orange;
+    padding:5%;
+  }
+  p {
+  color: dodgerblue;
+  font-size: 2em;
+  padding: 5%;
+  }
+}
+
+@media screen and (min-width:1000px) {
+p, h3 {
+padding: 5%;
+font-size:1.2em;
+}
+h1 {
+padding: 5%;
+}
 
 }
